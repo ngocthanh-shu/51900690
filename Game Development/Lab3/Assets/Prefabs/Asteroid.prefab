@@ -94,7 +94,6 @@ MonoBehaviour:
   playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 3}
   explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 3}
   scoreValue: 10
-  gameController: {fileID: 0}
 --- !u!114 &4752182469798645253
 MonoBehaviour:
   m_ObjectHideFlags: 0

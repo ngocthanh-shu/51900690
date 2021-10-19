@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     public GameObject hazard;
+    public GameObject cameraCut;
 
     public Vector3 spawnValues;
 
@@ -31,7 +32,7 @@ public class GameController : MonoBehaviour
         
         score = 0;
 
-        scoreText.text = "Score: 0";
+        scoreText.text = "";
         restartText.text = "";
         gameOverText.text = "";
 
@@ -53,6 +54,7 @@ public class GameController : MonoBehaviour
     IEnumerator SpawnWaves()
     {
         yield return new WaitForSeconds(startWave);
+        cameraCut.SetActive(false);
         while (true) 
         {
             for (int i = 0; i < hazardCount; i++)
@@ -81,7 +83,8 @@ public class GameController : MonoBehaviour
 
     void UpdateScore()
     {
-        scoreText.text = "Score: " + score.ToString();
+        if(score > 0)
+            scoreText.text = "Score: " + score.ToString();
     }
 
     public void GameOver()

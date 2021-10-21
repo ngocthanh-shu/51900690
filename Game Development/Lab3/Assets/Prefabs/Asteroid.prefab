@@ -75,7 +75,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4752182469798645263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dc3ac1b072c89e46b71798fc6ed3f0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c9775f0deff6f74aab7945f7e91610b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 5
@@ -88,7 +88,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4752182469798645263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4fc6f12c6c009148b4b6be170500219, type: 3}
+  m_Script: {fileID: 11500000, guid: 14470af0d6f4d9647a816d58a6cb8881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 3}
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4752182469798645263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63c5f76f6360c414086763865e1db978, type: 3}
+  m_Script: {fileID: 11500000, guid: 2455eb335b3f9634e81672635b85a321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -5

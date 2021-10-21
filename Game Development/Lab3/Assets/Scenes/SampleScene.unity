@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44950032, g: 0.49649626, b: 0.55914444, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -174,7 +174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bef35b10638a9ac4e96b77d57c5ef1e3, type: 2}
+  - {fileID: 2100000, guid: 16281e10a05b9a24095e8fe6cc5b16b5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 658653398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aee2d97702fc384aa28a5ce51439a7f, type: 3}
+  m_Script: {fileID: 11500000, guid: aeac078fae4e84a4f87b8c5d779141b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
@@ -784,9 +784,9 @@ MonoBehaviour:
   boundary:
     xMin: -6
     xMax: 6
-    zMin: -4
+    zMin: 4
     zMax: 8
-  shot: {fileID: 450289025837743938, guid: 7d7767978def75144b04c7d93f4ff866, type: 3}
+  shot: {fileID: 450289025837743938, guid: b02e60bae25e4154b9378e1a2d5a1640, type: 3}
   shotSpawn: {fileID: 1494817854}
   fireRate: 0.25
   audioSource: {fileID: 0}
@@ -1073,7 +1073,7 @@ Animator:
   m_GameObject: {fileID: 868577199}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6371017e0151641409d05621ac0fe7ad, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8b4ed433046c13e478e4a617e21e9de7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1247,7 +1247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1014563614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1257,13 +1257,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1014563613}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0766d088009957341a73b3d29d891bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: ca4246bde54360e4582a499767e0c4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hazards:
-  - {fileID: 4752182469798645263, guid: 36bfe025d5f10694587ee0efe84dfc60, type: 3}
-  - {fileID: 5520833225321367049, guid: 670e65bcbdb689440baa67b2e50b9712, type: 3}
-  - {fileID: 2091291935019491167, guid: 6b62ca9bec6bddb47af9a4310014b9b1, type: 3}
+  - {fileID: 4752182469798645263, guid: 67bcda1ae3dbb38409ae741d253a29ab, type: 3}
   cameraCut: {fileID: 868577199}
   spawnValues: {x: 6, y: 0, z: 15}
   spawnWave: 1
@@ -1421,7 +1419,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bef35b10638a9ac4e96b77d57c5ef1e3, type: 2}
+  - {fileID: 2100000, guid: 16281e10a05b9a24095e8fe6cc5b16b5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1473,13 +1471,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251017486}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 178cc30753c1b4d4d8c0f73ed502cde6, type: 3}
+  m_Script: {fileID: 11500000, guid: d19d4c8ddda203c4b86222dada3e6bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scrollSpeed: -0.25
-  tileSizeZ: 30
+  tileSizeZ: 0.36
 --- !u!1 &1321744315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,7 +1699,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1596462234}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56390f0bde7351b4ca283722935ca793, type: 3}
+  m_Script: {fileID: 11500000, guid: 08c2814e19b6830458c2db04a4156cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &1596462236

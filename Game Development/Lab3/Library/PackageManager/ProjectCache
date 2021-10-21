@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637696036357215590
+      ticks: 637704030600487673
     m_Hash: 1057299360
   m_LockFileStatus:
     m_FilePath: D:/Lesson/Git/51900690/Game Development/Lab3/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637696036525275566
+      ticks: 637704030811765985
     m_Hash: 1016591461
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -455,10 +455,12 @@ m_PackageAssets:
         - 1.1.26
         - 1.1.27
         - 1.1.29
+        - 1.1.30
         compatible:
         - 1.1.27
         - 1.1.29
-        verified: 1.1.29
+        - 1.1.30
+        verified: 1.1.30
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -741,6 +743,7 @@ m_PackageAssets:
         - 1.6.0-pre.5
         - 1.6.1
         - 1.6.2
+        - 1.6.3
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -762,6 +765,7 @@ m_PackageAssets:
         - 1.6.0-pre.5
         - 1.6.1
         - 1.6.2
+        - 1.6.3
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
